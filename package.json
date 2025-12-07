@@ -4,5 +4,8 @@
   },
   "devDependencies": {
     "vitest": "^4.0.15"
+  },
+  "dependencies": {
+    "vue": "^3.5.25"
   }
 }

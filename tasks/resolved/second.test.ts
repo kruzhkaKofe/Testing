@@ -1,8 +1,3 @@
-// Использовать vi.spyOn(global, 'fetch') или vi.fn(), чтобы не делать реальный запрос.
-// Проверить, что fetch был вызван с правильным URL (включая tokenId).
-// Если API вернул успешный ответ (200), функция должна вернуть число (парсинг priceUsd).
-// Если API вернул ошибку (например, 404 или 500), функция должна вернуть 0 (обработка catch).
-
 import { describe, test, expect, vi, afterEach } from 'vitest';
 import { getTokenPrice } from './second';
 
