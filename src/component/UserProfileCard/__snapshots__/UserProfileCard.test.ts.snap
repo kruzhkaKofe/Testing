@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UserProfileCard > Не передаем avatarUrl 1`] = `
+"<div class="card">
+  <!--v-if-->
+  <div class="avatar-placeholder"></div>
+  <h2>Антон</h2>
+  <p class="role">Учитель</p>
+</div>"
+`;
+
+exports[`UserProfileCard > Передаем avatarUrl 1`] = `
+"<div class="card"><img src="/img.png" class="avatar">
+  <div class="avatar-placeholder"></div>
+  <h2>Василий</h2>
+  <p class="role">Продавец</p>
+</div>"
+`;
