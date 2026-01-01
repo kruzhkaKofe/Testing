@@ -5,6 +5,8 @@ export default defineConfig({
   plugins: [vue()],
   test: {
     exclude: ["module/*"],
-    environment: 'happy-dom'
+    environment: 'happy-dom',
+    watch: true,
+    watchExclude: ['**/node_modules/**', '**/dist/**'],
   },
 });

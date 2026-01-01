@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "vitest"
+    "test": "vitest",
+    "docker:dev": "docker compose up --build"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.3",
